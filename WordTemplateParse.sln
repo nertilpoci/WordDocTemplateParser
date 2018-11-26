@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocxTemplateParser", "DocxTemplateParser\DocxTemplateParser.csproj", "{6D6B9E18-2611-4ECD-8B59-25EDF9E6D01C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocxTemplateTester.Tests", "DocxTemplateTester.Tests\DocxTemplateTester.Tests.csproj", "{0703AA59-16EA-4472-89C3-7DDAAA25F0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D6B9E18-2611-4ECD-8B59-25EDF9E6D01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6B9E18-2611-4ECD-8B59-25EDF9E6D01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6B9E18-2611-4ECD-8B59-25EDF9E6D01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6B9E18-2611-4ECD-8B59-25EDF9E6D01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0703AA59-16EA-4472-89C3-7DDAAA25F0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0703AA59-16EA-4472-89C3-7DDAAA25F0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0703AA59-16EA-4472-89C3-7DDAAA25F0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0703AA59-16EA-4472-89C3-7DDAAA25F0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D1D953A-2113-44D4-BC0C-E7AE974CF040}
+	EndGlobalSection
+EndGlobal
