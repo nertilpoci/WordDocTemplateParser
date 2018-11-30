@@ -18,7 +18,7 @@ namespace DocxTemplateParser
     public class TemplateParser
     {
 
-        public void GenerateInvoice(Stream input,Object data, ParseOptions options=null )
+        public void Parse(Stream input,Object data, ParseOptions options=null )
         {
             if (options == null) options = new ParseOptions();
             using (DocX document = DocX.Load(input))

@@ -13,7 +13,7 @@ namespace DocxTemplateTester.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var file = @"C:\Users\nertil\Downloads\Dokument.docx";
+            var file = @"C:\Users\nertil\Downloads\ModifyImage (1).docx";
             var parser = new TemplateParser();
             var fileInput = File.Open(file, FileMode.OpenOrCreate);
             var data = new
@@ -43,7 +43,7 @@ new
                 }
                 }.AsQueryable()
             };
-            parser.GenerateInvoice(fileInput,data);
+            parser.Parse(fileInput,data);
         }
     }
 }

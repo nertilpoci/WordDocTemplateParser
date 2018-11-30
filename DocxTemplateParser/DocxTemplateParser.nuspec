@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/nertilpoci/WordDocTemplateParser</projectUrl>
+    <iconUrl>https://devhow.net/wp-content/uploads/2018/11/templateparse.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>word template parse email mailmerge c# variable replace</tags>
+  </metadata>
+</package>
